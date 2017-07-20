@@ -1,11 +1,13 @@
 # desktop_background_screen
 
-This is a little ruby soft who aim to change your Mac desktop background screen with random Unsplash pictures
-Cople this with a little Cron task
+This is a little ruby soft who aim to download random Unsplash pictures (you can change the query to get whatever you want https://unsplash.com/documentation)
+All You need after this is to go into "System Preferencies", "Desktop & Screen Saver", then add the image folder, set the interval on whatever you want and it's over :)
 
-Exemple :
 
+Pair this with a little Cron task, Exemple :
 https://gist.github.com/bde-maze/ae61efda63c49ad76c0788c2c6725f4e
 
 
-Visit http://bmazed.me/
+Could be usefull -> HTTparty : https://github.com/jnunemaker/httparty
+
+Visit : http://bmazed.me/
