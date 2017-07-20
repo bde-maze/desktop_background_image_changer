@@ -7,5 +7,4 @@ response = JSON.parse(response.body)
 
 photo = HTTParty.get(response["urls"]["full"])
 
-File.write('background.jpg', photo)
-Desktop::CLI.start %w[set background.jpg]
+File.write('image/background.jpg', photo)
